@@ -1,0 +1,69 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/drawable/bike.xml" value="0.288" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/drawable/ic__online.xml" value="0.299" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/drawable/ic_pinn.xml" value="0.288" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_email.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_help.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_invite_friend.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_location_pick.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_notification_manager.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_otp.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_outstation_booking.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_password_forgot.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_payment.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_rental.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_reset_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_wallet.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_your_trip.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/dialog_instant_ride.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_book_ride.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_invoice.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_invoice_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_lost_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_service.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_upcoming_trip.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/pick_location_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/toolbar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/menu/location_pick_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_location_pick.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_otp.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_password_forgot.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_payment.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/pick_location_layout.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/drawable/dotted.xml" value="0.29" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout-ar/layout_referral_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_coupon.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_get_user_mobile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_invite_friend.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_location_pick.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_otp.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_outstation_booking.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/fragment_book_ride.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/layout_referral_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/list_promo_code.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/layout/pick_location_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/menu/location_pick_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/softechure/1AndroidStudioProjects/newcab_user_2021x/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.323" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

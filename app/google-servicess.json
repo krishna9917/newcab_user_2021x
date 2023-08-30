@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "640420824408",
+    "firebase_url": "https://himi-taxi-app-default-rtdb.firebaseio.com",
+    "project_id": "himi-taxi-app",
+    "storage_bucket": "himi-taxi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640420824408:android:911090b6796e9d3a01112d",
+        "android_client_info": {
+          "package_name": "com.softechurecab.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640420824408-3nsrair6o88sqmrrj6uvkn2ahsaq12hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLa-f78I37Vp1QULT68lDsNORReNspEy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640420824408-3nsrair6o88sqmrrj6uvkn2ahsaq12hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640420824408:android:16bffe4b7fc603d401112d",
+        "android_client_info": {
+          "package_name": "com.softechurecabdriver.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640420824408-l9gobess99a0nvvdfc5rkqpjmei0chht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softechurecabdriver.provider",
+            "certificate_hash": "e51b8806adb2bbac19d4ba60ea15e8d57050d20c"
+          }
+        },
+        {
+          "client_id": "640420824408-3nsrair6o88sqmrrj6uvkn2ahsaq12hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLa-f78I37Vp1QULT68lDsNORReNspEy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640420824408-3nsrair6o88sqmrrj6uvkn2ahsaq12hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

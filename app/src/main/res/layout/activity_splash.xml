@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quantum_black_text"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".ui.activity.splash.SplashActivity">
+
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="277dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/splashlogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_bottom"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/clanpro_medium"
+        android:padding="16dp"
+        android:text="@string/choose_language"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/choose_language"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <RadioButton
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:backgroundTint="@color/white"
+            android:checked="true"
+            android:ellipsize="end"
+            android:fontFamily="@font/clanpro_narrnews"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:text="@string/english"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_18" />
+
+        <RadioButton
+            android:id="@+id/arabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:backgroundTint="@color/white"
+            android:ellipsize="end"
+            android:fontFamily="@font/clanpro_narrnews"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:text="@string/arabic"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_18" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_round_accent"
+        android:fontFamily="@font/clanpro_narrnews"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/change_language"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grplanguages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="choose_language,textView5" />
+
+</RelativeLayout>

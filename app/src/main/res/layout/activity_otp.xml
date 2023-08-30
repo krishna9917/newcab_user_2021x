@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.otp.OtpActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_code"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/txtOtp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/quantum_black_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/txtOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editOtp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/quantum_black_text"
+        android:layout_marginBottom="55dp"
+        android:text="Please enter the OTP sent \n on your register phone number."/>
+
+    <TextView
+        android:id="@+id/txtMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/txtOtp"
+        app:layout_constraintEnd_toEndOf="@id/txtOtp"
+        app:layout_constraintTop_toBottomOf="@id/txtOtp"/>
+
+    <TextView
+        android:id="@+id/txtSubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:fontFamily="@font/clanpro_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/submit_background"/>
+    <com.mukesh.OtpView
+        android:id="@+id/editOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:itemCount="4"
+        app:layout_constraintStart_toStartOf="@id/txtSubmitBtn"
+        app:layout_constraintEnd_toEndOf="@id/txtSubmitBtn"
+        app:layout_constraintBottom_toTopOf="@id/txtSubmitBtn"
+        android:layout_marginBottom="50dp"
+        app:lineColor="@color/blue_grey"
+        />
+
+    <TextView
+        android:id="@+id/txtResend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Don't receive the OTP?"
+        app:layout_constraintTop_toBottomOf="@id/txtSubmitBtn"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+       android:layout_marginEnd="20dp"
+        />
+    <TextView
+        android:id="@+id/txtCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:enabled="false"
+        app:layout_constraintStart_toEndOf="@id/txtResend"
+        app:layout_constraintTop_toTopOf="@id/txtResend"
+        app:layout_constraintBottom_toBottomOf="@id/txtResend"
+        android:textColor="@color/quantum_black_text"
+        android:fontFamily="@font/roboto_medium"
+        android:textStyle="bold" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
